@@ -65,10 +65,13 @@ a {
 }
 
 /* UTILITIES */
-.margin1 {
-    margin: 1em;
+.margin-top2 {
+    margin-top: 2em;
 }
 
+.border-circle {
+    border-radius: 50%;
+}
 /* BG - CL PALLETTE */
 .bg-white {
     background-color: white;
@@ -143,8 +146,6 @@ header .desktop-menu {
 
 /* /HEADER */
 
-
- 
 /* MAIN */
 /* INFO */
 #info {
@@ -304,6 +305,50 @@ header .desktop-menu {
 }
 /* /BENEFITS */
 
+/* ABOUT US */
+#about-us .row-left {
+    padding: 1em;
+}
+
+#about-us h1 {
+    margin: 1em 0;
+}
+
+#about-us p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+#about-us .row-right {
+    margin-top: 2em;
+    padding: 1em;
+    position: relative;
+}
+
+#about-us img {
+    width: 70%;
+    margin-bottom: 1em;
+}
+
+#about-use figure span {
+    width: 40%
+}
+
+#about-us .btn {
+    margin-top: 1em;
+}
+
+#about-us .btn i {
+    margin-right: 10px;
+}
+
+#about-us .quote {
+    position: absolute;
+    top: 0;
+    left: 150px;
+    font-size: 12rem;
+}
+/* /ABOUT US */
 /* /MAIN */
 
 
@@ -370,6 +415,8 @@ header .desktop-menu {
         width: calc(100% / 2 - 20px);
         margin: 10px auto;
     }
+
+    /* ABOUT-US */
 }
 
 /* DESKTOP 992PX */
@@ -412,7 +459,7 @@ header .desktop-menu {
 
     #info .img-card {
         position: relative;
-        top: 30px;
+        top: 4em;
     }
     /* /INFO */
 
