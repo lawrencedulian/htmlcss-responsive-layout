@@ -179,7 +179,7 @@ header .desktop-menu {
     margin-bottom: 1em;
 }
 
-#info .text-card button {
+#info .text-card a {
     display: block;
     width: 200px;
     letter-spacing: 0.2em;
